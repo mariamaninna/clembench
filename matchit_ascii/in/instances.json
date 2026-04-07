@@ -5,20 +5,20 @@
       "game_instances": [
         {
           "game_id": 0,
-          "grid_a": "X X X X X\nX ▢ ▢ ▢ ▢\nX X X ▢ ▢\nX ▢ ▢ ▢ ▢\nX X X X X",
-          "grid_b": "X X X X X\nX ▢ ▢ ▢ ▢\nX X X ▢ ▢\nX ▢ ▢ ▢ ▢\nX X X X X",
+          "grid_a": "▢ X X X ▢\n▢ ▢ X ▢ ▢\n▢ X ▢ X ▢\n▢ X X X ▢\n▢ X X X ▢",
+          "grid_b": "▢ X X X ▢\n▢ ▢ X ▢ ▢\n▢ X ▢ X ▢\n▢ X X X ▢\n▢ X X X ▢",
           "decision_turn": 3
         },
         {
           "game_id": 1,
-          "grid_a": "X X X X X\nX ▢ X ▢ X\nX ▢ X ▢ X\nX ▢ X ▢ X\nX X X X X",
-          "grid_b": "X X X X X\nX ▢ X ▢ X\nX ▢ X ▢ X\nX ▢ X ▢ X\nX X X X X",
+          "grid_a": "X X X X X\nX X X X X\n▢ ▢ X ▢ ▢\nX X X X X\nX X X X X",
+          "grid_b": "X X X X X\nX X X X X\n▢ ▢ X ▢ ▢\nX X X X X\nX X X X X",
           "decision_turn": 3
         },
         {
           "game_id": 2,
-          "grid_a": "X X ▢ X X\nX X ▢ X X\nX X X X X\nX X ▢ X X\nX X ▢ X X",
-          "grid_b": "X X ▢ X X\nX X ▢ X X\nX X X X X\nX X ▢ X X\nX X ▢ X X",
+          "grid_a": "▢ ▢ ▢ ▢ ▢\n▢ X X X X\n▢ ▢ ▢ X X\n▢ X X X X\n▢ X X X X",
+          "grid_b": "▢ ▢ ▢ ▢ ▢\n▢ X X X X\n▢ ▢ ▢ X X\n▢ X X X X\n▢ X X X X",
           "decision_turn": 3
         },
         {
@@ -29,38 +29,14 @@
         },
         {
           "game_id": 4,
-          "grid_a": "X X X X X\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
-          "grid_b": "X X X X X\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 5,
           "grid_a": "▢ X X X ▢\n▢ ▢ X X ▢\n▢ X ▢ X ▢\n▢ X X ▢ ▢\n▢ X X X ▢",
           "grid_b": "▢ X X X ▢\n▢ ▢ X X ▢\n▢ X ▢ X ▢\n▢ X X ▢ ▢\n▢ X X X ▢",
           "decision_turn": 3
         },
         {
-          "game_id": 6,
-          "grid_a": "▢ ▢ ▢ ▢ ▢\n▢ X X X X\n▢ ▢ ▢ X X\n▢ X X X X\n▢ X X X X",
-          "grid_b": "▢ ▢ ▢ ▢ ▢\n▢ X X X X\n▢ ▢ ▢ X X\n▢ X X X X\n▢ X X X X",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 7,
-          "grid_a": "X ▢ ▢ ▢ X\n▢ X ▢ X ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
-          "grid_b": "X ▢ ▢ ▢ X\n▢ X ▢ X ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 8,
-          "grid_a": "▢ X X X X\n▢ X X X X\n▢ X X X X\n▢ X X X X\n▢ ▢ ▢ ▢ ▢",
-          "grid_b": "▢ X X X X\n▢ X X X X\n▢ X X X X\n▢ X X X X\n▢ ▢ ▢ ▢ ▢",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 9,
-          "grid_a": "X X X X X\nX X X X X\n▢ ▢ X ▢ ▢\nX X X X X\nX X X X X",
-          "grid_b": "X X X X X\nX X X X X\n▢ ▢ X ▢ ▢\nX X X X X\nX X X X X",
+          "game_id": 5,
+          "grid_a": "X X ▢ X X\nX X ▢ X X\n▢ ▢ ▢ ▢ ▢\nX X ▢ X X\nX X ▢ X X",
+          "grid_b": "X X ▢ X X\nX X ▢ X X\n▢ ▢ ▢ ▢ ▢\nX X ▢ X X\nX X ▢ X X",
           "decision_turn": 3
         }
       ],
@@ -83,62 +59,38 @@
       "game_instances": [
         {
           "game_id": 0,
-          "grid_a": "X X X X ▢\nX X X ▢ X\nX X ▢ X X\nX ▢ X X X\n▢ X X X X",
-          "grid_b": "▢ X X X X\nX ▢ X X X\nX X ▢ X X\nX X X ▢ X\nX X X X ▢",
+          "grid_a": "X ▢ ▢ ▢ ▢\nX X ▢ ▢ ▢\nX X X ▢ ▢\nX X X X ▢\nX X X X X",
+          "grid_b": "▢ ▢ ▢ ▢ X\n▢ ▢ ▢ X X\n▢ ▢ X X X\n▢ X X X X\nX X X X X",
           "decision_turn": 3
         },
         {
           "game_id": 1,
-          "grid_a": "▢ ▢ X ▢ ▢\n▢ X X ▢ ▢\nX X X X X\n▢ X X ▢ ▢\n▢ ▢ X ▢ ▢",
-          "grid_b": "▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\nX X X X X\n▢ X X X ▢\n▢ ▢ X ▢ ▢",
+          "grid_a": "X X X X X\n▢ ▢ ▢ X ▢\n▢ ▢ X ▢ ▢\n▢ X ▢ ▢ ▢\nX X X X X",
+          "grid_b": "X X X X X\n▢ X ▢ ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ ▢ X ▢\nX X X X X",
           "decision_turn": 3
         },
         {
           "game_id": 2,
-          "grid_a": "X ▢ ▢ ▢ X\nX X ▢ X X\nX ▢ X ▢ X\nX ▢ ▢ ▢ X\nX ▢ ▢ ▢ X",
-          "grid_b": "X ▢ ▢ ▢ X\nX ▢ ▢ ▢ X\nX ▢ X ▢ X\nX X ▢ X X\nX ▢ ▢ ▢ X",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 3,
-          "grid_a": "▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ X X X ▢\n▢ X X X ▢\nX X X X X",
-          "grid_b": "X X X X X\n▢ X X X ▢\n▢ X X X ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 4,
-          "grid_a": "X ▢ ▢ ▢ X\nX X ▢ ▢ X\nX ▢ X ▢ X\nX ▢ ▢ X X\nX ▢ ▢ ▢ X",
-          "grid_b": "X ▢ ▢ ▢ X\nX ▢ ▢ X X\nX ▢ X ▢ X\nX X ▢ ▢ X\nX ▢ ▢ ▢ X",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 5,
-          "grid_a": "▢ ▢ X ▢ ▢\n▢ ▢ X X ▢\nX X X X X\n▢ ▢ X X ▢\n▢ ▢ X ▢ ▢",
+          "grid_a": "▢ ▢ X ▢ ▢\n▢ X X X ▢\nX X X X X\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
           "grid_b": "▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\nX X X X X\n▢ X X X ▢\n▢ ▢ X ▢ ▢",
           "decision_turn": 3
         },
         {
-          "game_id": 6,
-          "grid_a": "▢ ▢ X ▢ ▢\n▢ X X ▢ ▢\nX X X X X\n▢ X X ▢ ▢\n▢ ▢ X ▢ ▢",
-          "grid_b": "▢ ▢ X ▢ ▢\n▢ ▢ X X ▢\nX X X X X\n▢ ▢ X X ▢\n▢ ▢ X ▢ ▢",
+          "game_id": 3,
+          "grid_a": "X X X X X\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
+          "grid_b": "▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\nX X X X X",
           "decision_turn": 3
         },
         {
-          "game_id": 7,
-          "grid_a": "▢ ▢ ▢ ▢ X\n▢ ▢ ▢ X ▢\n▢ ▢ X ▢ ▢\n▢ X ▢ ▢ ▢\nX ▢ ▢ ▢ ▢",
-          "grid_b": "X ▢ ▢ ▢ ▢\n▢ X ▢ ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ ▢ X ▢\n▢ ▢ ▢ ▢ X",
+          "game_id": 4,
+          "grid_a": "X ▢ ▢ ▢ X\n▢ X ▢ X ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
+          "grid_b": "▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ X ▢ X ▢\nX ▢ ▢ ▢ X",
           "decision_turn": 3
         },
         {
-          "game_id": 8,
-          "grid_a": "▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ ▢ ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
-          "grid_b": "▢ ▢ ▢ ▢ ▢\n▢ ▢ ▢ ▢ ▢\nX X ▢ X X\n▢ ▢ ▢ ▢ ▢\n▢ ▢ ▢ ▢ ▢",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 9,
-          "grid_a": "X X X X X\nX ▢ ▢ ▢ ▢\nX X X ▢ ▢\nX ▢ ▢ ▢ ▢\nX ▢ ▢ ▢ ▢",
-          "grid_b": "X ▢ ▢ ▢ ▢\nX ▢ ▢ ▢ ▢\nX X X ▢ ▢\nX ▢ ▢ ▢ ▢\nX X X X X",
+          "game_id": 5,
+          "grid_a": "X ▢ ▢ ▢ X\nX X ▢ ▢ X\nX ▢ X ▢ X\nX ▢ ▢ X X\nX ▢ ▢ ▢ X",
+          "grid_b": "X ▢ ▢ ▢ X\nX ▢ ▢ X X\nX ▢ X ▢ X\nX X ▢ ▢ X\nX ▢ ▢ ▢ X",
           "decision_turn": 3
         }
       ],
@@ -161,20 +113,20 @@
       "game_instances": [
         {
           "game_id": 0,
-          "grid_a": "X X X X X\nX ▢ ▢ ▢ ▢\nX X X ▢ ▢\nX ▢ ▢ ▢ ▢\nX X X X X",
-          "grid_b": "X X X X X\nX ▢ ▢ ▢ ▢\nX X X X ▢\nX ▢ ▢ ▢ ▢\n▢ X X X X",
+          "grid_a": "▢ X X X ▢\n▢ ▢ X ▢ ▢\n▢ X ▢ X ▢\n▢ X X X ▢\n▢ X X X ▢",
+          "grid_b": "▢ ▢ X X ▢\n▢ ▢ X ▢ ▢\n▢ X ▢ X X\n▢ X X X ▢\n▢ X X X ▢",
           "decision_turn": 3
         },
         {
           "game_id": 1,
-          "grid_a": "X X X X X\nX ▢ X ▢ X\nX ▢ X ▢ X\nX ▢ X ▢ X\nX X X X X",
-          "grid_b": "X X X X X\nX X X ▢ X\nX ▢ X X X\nX ▢ X ▢ X\nX X X X X",
+          "grid_a": "X X X X X\nX X X X X\n▢ ▢ X ▢ ▢\nX X X X X\nX X X X X",
+          "grid_b": "X X X X X\n▢ ▢ X X X\n▢ ▢ X ▢ ▢\nX X X X X\nX X X X X",
           "decision_turn": 3
         },
         {
           "game_id": 2,
-          "grid_a": "X X ▢ X X\nX X ▢ X X\nX X X X X\nX X ▢ X X\nX X ▢ X X",
-          "grid_b": "X X ▢ X ▢\nX X ▢ X X\nX X X X X\nX X ▢ X X\nX X ▢ ▢ X",
+          "grid_a": "▢ ▢ ▢ ▢ ▢\n▢ X X X X\n▢ ▢ ▢ X X\n▢ X X X X\n▢ X X X X",
+          "grid_b": "▢ ▢ ▢ ▢ X\n▢ X ▢ X X\n▢ ▢ ▢ X X\n▢ X X X X\n▢ X X X X",
           "decision_turn": 3
         },
         {
@@ -185,38 +137,14 @@
         },
         {
           "game_id": 4,
-          "grid_a": "X X X X X\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
-          "grid_b": "X X X X X\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ X\n▢ X X ▢ ▢",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 5,
           "grid_a": "▢ X X X ▢\n▢ ▢ X X ▢\n▢ X ▢ X ▢\n▢ X X ▢ ▢\n▢ X X X ▢",
           "grid_b": "▢ X X X ▢\n▢ ▢ ▢ X X\n▢ X ▢ X ▢\n▢ X X ▢ ▢\n▢ X X X ▢",
           "decision_turn": 3
         },
         {
-          "game_id": 6,
-          "grid_a": "▢ ▢ ▢ ▢ ▢\n▢ X X X X\n▢ ▢ ▢ X X\n▢ X X X X\n▢ X X X X",
-          "grid_b": "▢ ▢ ▢ ▢ X\n▢ X ▢ X X\n▢ ▢ ▢ X X\n▢ X X X X\n▢ X X X X",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 7,
-          "grid_a": "X ▢ ▢ ▢ X\n▢ X ▢ X ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
-          "grid_b": "X ▢ ▢ ▢ X\n▢ ▢ ▢ X ▢\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ ▢ ▢ ▢",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 8,
-          "grid_a": "▢ X X X X\n▢ X X X X\n▢ X X X X\n▢ X X X X\n▢ ▢ ▢ ▢ ▢",
-          "grid_b": "X X X X X\n▢ X X X ▢\n▢ X X X X\n▢ X X X X\n▢ ▢ ▢ ▢ ▢",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 9,
-          "grid_a": "X X X X X\nX X X X X\n▢ ▢ X ▢ ▢\nX X X X X\nX X X X X",
-          "grid_b": "X X X X X\n▢ ▢ X X X\n▢ ▢ X ▢ ▢\nX X X X X\nX X X X X",
+          "game_id": 5,
+          "grid_a": "X X ▢ X X\nX X ▢ X X\n▢ ▢ ▢ ▢ ▢\nX X ▢ X X\nX X ▢ X X",
+          "grid_b": "X X ▢ X X\nX X ▢ X X\n▢ ▢ ▢ X ▢\n▢ X ▢ X X\nX X ▢ X X",
           "decision_turn": 3
         }
       ],
@@ -239,62 +167,38 @@
       "game_instances": [
         {
           "game_id": 0,
-          "grid_a": "X X X X X\n▢ ▢ ▢ ▢ X\n▢ ▢ X X X\n▢ ▢ ▢ ▢ X\nX X X X X",
-          "grid_b": "▢ ▢ ▢ ▢ ▢\n▢ X X X X\n▢ ▢ ▢ X X\n▢ X X X X\n▢ X X X X",
+          "grid_a": "X ▢ ▢ ▢ X\nX ▢ ▢ ▢ X\nX X X X X\nX ▢ ▢ ▢ X\nX ▢ ▢ ▢ X",
+          "grid_b": "▢ ▢ X ▢ ▢\n▢ X X ▢ ▢\nX X X X X\n▢ X X ▢ ▢\n▢ ▢ X ▢ ▢",
           "decision_turn": 3
         },
         {
           "game_id": 1,
-          "grid_a": "X ▢ ▢ ▢ X\nX ▢ ▢ ▢ X\nX X X X X\nX ▢ ▢ ▢ X\nX ▢ ▢ ▢ X",
-          "grid_b": "▢ ▢ ▢ ▢ ▢\n▢ X X X X\n▢ ▢ ▢ X X\n▢ X X X X\n▢ ▢ ▢ ▢ ▢",
+          "grid_a": "X X X X X\n▢ ▢ ▢ ▢ X\n▢ ▢ X X X\n▢ ▢ ▢ ▢ X\n▢ ▢ ▢ ▢ X",
+          "grid_b": "▢ X X X ▢\n▢ X X X ▢\n▢ X X X ▢\n▢ X X X ▢\n▢ X X X ▢",
           "decision_turn": 3
         },
         {
           "game_id": 2,
-          "grid_a": "X ▢ ▢ ▢ X\n▢ X ▢ ▢ X\n▢ ▢ X X X\n▢ X ▢ ▢ X\nX ▢ ▢ ▢ X",
-          "grid_b": "X X X X ▢\nX X X ▢ X\nX X ▢ X X\nX ▢ X X X\n▢ X X X X",
+          "grid_a": "X X X X X\nX X X X X\n▢ ▢ X ▢ ▢\nX X X X X\nX X X X X",
+          "grid_b": "X ▢ ▢ ▢ ▢\nX X ▢ ▢ ▢\nX X X ▢ ▢\nX X X X ▢\nX X X X X",
           "decision_turn": 3
         },
         {
           "game_id": 3,
-          "grid_a": "X ▢ ▢ ▢ ▢\nX ▢ ▢ ▢ ▢\nX ▢ ▢ ▢ ▢\nX ▢ ▢ ▢ ▢\nX X X X X",
-          "grid_b": "X X X X X\n▢ ▢ ▢ ▢ X\n▢ ▢ X X X\n▢ ▢ ▢ ▢ X\n▢ ▢ ▢ ▢ X",
+          "grid_a": "X ▢ ▢ ▢ X\nX ▢ ▢ ▢ X\nX ▢ X ▢ X\nX X ▢ X X\nX ▢ ▢ ▢ X",
+          "grid_b": "▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢\nX X X X X\n▢ ▢ X ▢ ▢\n▢ ▢ X ▢ ▢",
           "decision_turn": 3
         },
         {
           "game_id": 4,
-          "grid_a": "▢ ▢ ▢ ▢ ▢\n▢ X X X X\n▢ ▢ ▢ X X\n▢ X X X X\n▢ X X X X",
-          "grid_b": "▢ ▢ ▢ ▢ X\n▢ ▢ ▢ X X\n▢ ▢ X X X\n▢ X X X X\nX X X X X",
+          "grid_a": "X ▢ ▢ ▢ X\nX ▢ ▢ ▢ X\nX ▢ ▢ ▢ X\nX ▢ ▢ ▢ X\nX ▢ ▢ ▢ X",
+          "grid_b": "X ▢ ▢ ▢ ▢\n▢ X ▢ ▢ ▢\n▢ ▢ X ▢ ▢\n▢ ▢ ▢ X ▢\n▢ ▢ ▢ ▢ X",
           "decision_turn": 3
         },
         {
           "game_id": 5,
-          "grid_a": "▢ X X X X\nX ▢ X X X\nX X ▢ X X\nX X X ▢ X\nX X X X ▢",
-          "grid_b": "▢ ▢ ▢ ▢ ▢\n▢ X ▢ X ▢\n▢ X ▢ X ▢\n▢ X ▢ X ▢\n▢ ▢ ▢ ▢ ▢",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 6,
-          "grid_a": "▢ X X X ▢\nX ▢ X ▢ X\nX X ▢ X X\nX ▢ X ▢ X\n▢ X X X ▢",
-          "grid_b": "▢ ▢ ▢ ▢ ▢\nX X X ▢ X\nX X ▢ X X\nX ▢ X X X\n▢ ▢ ▢ ▢ ▢",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 7,
-          "grid_a": "X ▢ ▢ ▢ X\nX ▢ ▢ X X\nX ▢ X ▢ X\nX X ▢ ▢ X\nX ▢ ▢ ▢ X",
+          "grid_a": "▢ X X X ▢\n▢ ▢ X ▢ ▢\n▢ X ▢ X ▢\n▢ X X X ▢\n▢ X X X ▢",
           "grid_b": "X X X X X\nX X X X ▢\nX X X ▢ ▢\nX X ▢ ▢ ▢\nX ▢ ▢ ▢ ▢",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 8,
-          "grid_a": "X ▢ ▢ ▢ X\nX X ▢ X X\nX ▢ X ▢ X\nX ▢ ▢ ▢ X\nX ▢ ▢ ▢ X",
-          "grid_b": "X X X X X\n▢ X X X X\n▢ ▢ X X X\n▢ ▢ ▢ X X\n▢ ▢ ▢ ▢ X",
-          "decision_turn": 3
-        },
-        {
-          "game_id": 9,
-          "grid_a": "▢ ▢ X ▢ ▢\n▢ ▢ X X ▢\nX X X X X\n▢ ▢ X X ▢\n▢ ▢ X ▢ ▢",
-          "grid_b": "▢ X X X ▢\n▢ ▢ X X ▢\n▢ X ▢ X ▢\n▢ X X ▢ ▢\n▢ X X X ▢",
           "decision_turn": 3
         }
       ],

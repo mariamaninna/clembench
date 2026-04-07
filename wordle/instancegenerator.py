@@ -45,4 +45,4 @@ if __name__ == "__main__":
         if len(variant_suffix) > 1:
             file_name = f"instances_{variant_suffix[-1]}.json"
         print(f"Generate {file_name} for {variant}")
-        WordleGameInstanceGenerator().generate(filename=file_name, seed=28, variant=variant, lang="en")
+        WordleGameInstanceGenerator().generate(filename=file_name, seed=40, variant=variant, lang="en")

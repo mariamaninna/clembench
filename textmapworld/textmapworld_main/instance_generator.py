@@ -58,7 +58,7 @@ def create_graphs(num_graphs, graph_type, n, m, rooms, cycle_bool, abiguity, gam
 strict = True
 n = 4
 m = 4
-instance_number = 10
+instance_number = 5
 game_type = "named_graph" #"named_graph" or "unnamed_graph"
 ambiguity= None #(repetition_rooms, repetition_times) or None
 
@@ -144,4 +144,4 @@ class TextMapWorldMainGameInstanceGenerator(GameInstanceGenerator):
                         
 
 if __name__ == '__main__':
-    TextMapWorldMainGameInstanceGenerator().generate(seed=42)
+    TextMapWorldMainGameInstanceGenerator().generate(seed=40)

@@ -15,7 +15,7 @@ from privateshared.constants import PROBES_PATH, REQUESTS_PATH, SLOT_PATH, PROMP
 ID = 1
 LANG = 'en'
 # SEED = 2102  # old/v1.6 seed
-N_INSTANCES = 10
+N_INSTANCES = 5
 
 what_slot = {'travel-booking': 'Travel',
              'job-interview': 'Job Application',
@@ -113,4 +113,4 @@ class PrivateSharedGameInstanceGenerator(GameInstanceGenerator):
 
 
 if __name__ == '__main__':
-    PrivateSharedGameInstanceGenerator().generate(seed=42)
+    PrivateSharedGameInstanceGenerator().generate(seed=40)

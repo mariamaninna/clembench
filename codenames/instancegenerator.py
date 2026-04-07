@@ -17,7 +17,7 @@ FLAGS = ["IGNORE RAMBLING", "IGNORE FALSE TARGETS OR GUESSES", "REPROMPT ON ERRO
          "IGNORE NUMBER OF TARGETS"]
 
 # SEED = 42  # seed for old/v1.6 instances
-SEED = 123
+SEED = 40
 
 
 def generate_random(wordlist, required):
@@ -328,4 +328,4 @@ if __name__ == '__main__':
                 print(f"Replacing instances for experiment {experiment_name}.")
             CodenamesInstanceGenerator().replace_instances(variable_name, experiment_name, filename)
         else:
-            CodenamesInstanceGenerator().generate(filename, seed=SEED, **args)
+            CodenamesInstanceGenerator().generate(filename, seed=SEED, **vars(args))

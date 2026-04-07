@@ -5,62 +5,62 @@
       "game_instances": [
         {
           "game_id": 1,
-          "target_word": "under",
-          "target_word_clue": "comatose",
+          "target_word": "trade",
+          "target_word_clue": "nasdaq transaction",
           "target_word_difficulty": "high_frequency"
         },
         {
           "game_id": 2,
-          "target_word": "three",
-          "target_word_clue": "\"...called for his fiddlers ___\"",
+          "target_word": "often",
+          "target_word_clue": "repeatedly",
           "target_word_difficulty": "high_frequency"
         },
         {
           "game_id": 3,
-          "target_word": "black",
-          "target_word_clue": "longtime supreme court name",
+          "target_word": "click",
+          "target_word_clue": "succeed, informally",
           "target_word_difficulty": "high_frequency"
         },
         {
           "game_id": 4,
-          "target_word": "never",
-          "target_word_clue": "1985 hit by heart",
+          "target_word": "visit",
+          "target_word_clue": "short stay",
           "target_word_difficulty": "high_frequency"
         },
         {
           "game_id": 5,
-          "target_word": "right",
-          "target_word_clue": "divine ___",
+          "target_word": "start",
+          "target_word_clue": "embark",
           "target_word_difficulty": "high_frequency"
         },
         {
           "game_id": 6,
-          "target_word": "major",
-          "target_word_clue": "tv's\"___dad\"",
+          "target_word": "white",
+          "target_word_clue": "former justice byron",
           "target_word_difficulty": "high_frequency"
         },
         {
           "game_id": 7,
-          "target_word": "their",
-          "target_word_clue": "others'",
+          "target_word": "index",
+          "target_word_clue": "back matter",
           "target_word_difficulty": "high_frequency"
         },
         {
           "game_id": 8,
-          "target_word": "today",
-          "target_word_clue": "tv show since 1/14/52",
+          "target_word": "story",
+          "target_word_clue": "floor",
           "target_word_difficulty": "high_frequency"
         },
         {
           "game_id": 9,
-          "target_word": "level",
-          "target_word_clue": "gauge reading",
+          "target_word": "large",
+          "target_word_clue": "hulking",
           "target_word_difficulty": "high_frequency"
         },
         {
           "game_id": 10,
-          "target_word": "cover",
-          "target_word_clue": "stand in (for)",
+          "target_word": "radio",
+          "target_word_clue": "\"easy aces\" medium",
           "target_word_difficulty": "high_frequency"
         }
       ],
@@ -80,7 +80,7 @@
         ],
         "number_of_target_words": {
           "high_frequency": 10,
-          "medium_frequency": 20,
+          "medium_frequency": 10,
           "low_frequency": 10
         },
         "max_token_limit_openai_models": 3800,
@@ -13082,122 +13082,62 @@
       "game_instances": [
         {
           "game_id": 1,
-          "target_word": "diary",
-          "target_word_clue": "logbook",
+          "target_word": "sneer",
+          "target_word_clue": "show distaste",
           "target_word_difficulty": "medium_frequency"
         },
         {
           "game_id": 2,
-          "target_word": "resin",
-          "target_word_clue": "plastics base",
+          "target_word": "magic",
+          "target_word_clue": "conjuring",
           "target_word_difficulty": "medium_frequency"
         },
         {
           "game_id": 3,
-          "target_word": "flame",
-          "target_word_clue": "sweetheart",
+          "target_word": "crank",
+          "target_word_clue": "monomaniac, informally",
           "target_word_difficulty": "medium_frequency"
         },
         {
           "game_id": 4,
-          "target_word": "lager",
-          "target_word_clue": "pilsner",
+          "target_word": "spool",
+          "target_word_clue": "sewing kit item",
           "target_word_difficulty": "medium_frequency"
         },
         {
           "game_id": 5,
-          "target_word": "steam",
-          "target_word_clue": "tick off",
+          "target_word": "grasp",
+          "target_word_clue": "understand",
           "target_word_difficulty": "medium_frequency"
         },
         {
           "game_id": 6,
-          "target_word": "slimy",
-          "target_word_clue": "like algae",
+          "target_word": "booth",
+          "target_word_clue": "salvation army founder",
           "target_word_difficulty": "medium_frequency"
         },
         {
           "game_id": 7,
-          "target_word": "owner",
-          "target_word_clue": "steinbrenner, to the yankees",
+          "target_word": "jetty",
+          "target_word_clue": "overhang",
           "target_word_difficulty": "medium_frequency"
         },
         {
           "game_id": 8,
-          "target_word": "renew",
-          "target_word_clue": "make current",
+          "target_word": "swine",
+          "target_word_clue": "boar or boor",
           "target_word_difficulty": "medium_frequency"
         },
         {
           "game_id": 9,
-          "target_word": "syrup",
-          "target_word_clue": "waffle topping",
+          "target_word": "blimp",
+          "target_word_clue": "tv camera position, maybe",
           "target_word_difficulty": "medium_frequency"
         },
         {
           "game_id": 10,
-          "target_word": "tenth",
-          "target_word_clue": "tithing",
-          "target_word_difficulty": "medium_frequency"
-        },
-        {
-          "game_id": 11,
-          "target_word": "faint",
-          "target_word_clue": "barely noticeable",
-          "target_word_difficulty": "medium_frequency"
-        },
-        {
-          "game_id": 12,
-          "target_word": "risky",
-          "target_word_clue": "like venture capital investments",
-          "target_word_difficulty": "medium_frequency"
-        },
-        {
-          "game_id": 13,
-          "target_word": "buggy",
-          "target_word_clue": "baby conveyance",
-          "target_word_difficulty": "medium_frequency"
-        },
-        {
-          "game_id": 14,
-          "target_word": "grind",
-          "target_word_clue": "nine-to-five routine",
-          "target_word_difficulty": "medium_frequency"
-        },
-        {
-          "game_id": 15,
-          "target_word": "liner",
-          "target_word_clue": "passenger ship",
-          "target_word_difficulty": "medium_frequency"
-        },
-        {
-          "game_id": 16,
-          "target_word": "canny",
-          "target_word_clue": "shrewd",
-          "target_word_difficulty": "medium_frequency"
-        },
-        {
-          "game_id": 17,
-          "target_word": "manly",
-          "target_word_clue": "virile",
-          "target_word_difficulty": "medium_frequency"
-        },
-        {
-          "game_id": 18,
-          "target_word": "suing",
-          "target_word_clue": "court activity",
-          "target_word_difficulty": "medium_frequency"
-        },
-        {
-          "game_id": 19,
-          "target_word": "stoke",
-          "target_word_clue": "tend the hearth",
-          "target_word_difficulty": "medium_frequency"
-        },
-        {
-          "game_id": 20,
-          "target_word": "glove",
-          "target_word_clue": "winter wear",
+          "target_word": "upper",
+          "target_word_clue": "amphetamine",
           "target_word_difficulty": "medium_frequency"
         }
       ],
@@ -13217,7 +13157,7 @@
         ],
         "number_of_target_words": {
           "high_frequency": 10,
-          "medium_frequency": 20,
+          "medium_frequency": 10,
           "low_frequency": 10
         },
         "max_token_limit_openai_models": 3800,

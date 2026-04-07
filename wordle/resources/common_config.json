@@ -6,7 +6,7 @@
     "supported_word_difficulty": ["high_frequency", "medium_frequency", "low_frequency"],
     "number_of_target_words": {
                                 "high_frequency": 10,
-                                "medium_frequency": 20,
+                                "medium_frequency": 10,
                                 "low_frequency": 10
     },
     "max_token_limit_openai_models": 3800,

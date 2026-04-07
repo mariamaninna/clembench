@@ -4,7 +4,7 @@ import os
 from clemcore.clemgame import GameInstanceGenerator
 
 # n instances to be generated
-N: int = 10  # max: len(similar_images.csv) = 161, if not using other image pairs
+N: int = 8  # max: len(similar_images.csv) = 161, if not using other image pairs
 # paths to image pair tables
 PATH_DIFF: str = os.path.join("resources", "image_pairs", "different_images.csv")
 PATH_SIM: str = os.path.join("resources", "image_pairs", "similar_images.csv")
@@ -98,4 +98,4 @@ class MatchItInstanceGenerator(GameInstanceGenerator):
 
 
 if __name__ == "__main__":
-    MatchItInstanceGenerator().generate(seed=42)
+    MatchItInstanceGenerator().generate(seed=40)

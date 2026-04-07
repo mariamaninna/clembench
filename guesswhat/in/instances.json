@@ -5,142 +5,58 @@
       "game_instances": [
         {
           "game_id": 0,
-          "target_word": "Center",
+          "target_word": "Copperhead",
           "candidate_list": [
-            "White",
-            "Silver",
-            "Hutch",
-            "Chair",
-            "Sweatshirt",
-            "Shoes",
-            "Punter",
-            "Center"
+            "Copperhead",
+            "Python",
+            "Blouse",
+            "Glasses",
+            "Mirror",
+            "Chest",
+            "Computer",
+            "People"
           ]
         },
         {
           "game_id": 1,
-          "target_word": "Private",
+          "target_word": "Gun",
           "candidate_list": [
-            "Private",
-            "Cadet",
-            "Mesa",
-            "Rock",
-            "Legos",
-            "Train",
-            "Dinero",
-            "Dime"
+            "Cheetah",
+            "Deer",
+            "Millimeter",
+            "Mile",
+            "Gun",
+            "Jacks",
+            "Violin",
+            "Bassoon"
           ]
         },
         {
           "game_id": 2,
-          "target_word": "Plant",
+          "target_word": "Furlong",
           "candidate_list": [
-            "Documents",
-            "Self",
-            "Bush",
-            "Plant",
-            "Mushrooms",
-            "PCP",
-            "President",
-            "Mayor"
+            "Rat",
+            "Anaconda",
+            "Meter",
+            "Furlong",
+            "Tackle",
+            "Defense",
+            "Council",
+            "Congress"
           ]
         },
         {
           "game_id": 3,
-          "target_word": "Mailman",
+          "target_word": "Racer",
           "candidate_list": [
-            "Semi",
-            "Sled",
-            "Mailman",
-            "Scientist",
-            "Clover",
-            "Broccoli",
-            "Foyer",
-            "Garage"
-          ]
-        },
-        {
-          "game_id": 4,
-          "target_word": "Mosquito",
-          "candidate_list": [
-            "Mosquito",
-            "Bee",
-            "Disco",
-            "Blues",
-            "Fog",
-            "Hurricane",
-            "Cannabis",
-            "Pepper"
-          ]
-        },
-        {
-          "game_id": 5,
-          "target_word": "Blouse",
-          "candidate_list": [
-            "Topaz",
-            "Sapphire",
-            "Blouse",
-            "Glasses",
-            "Tuba",
-            "Alarm",
-            "Burglary",
-            "Rape"
-          ]
-        },
-        {
-          "game_id": 6,
-          "target_word": "Mamba",
-          "candidate_list": [
-            "Foot",
-            "Millimeter",
-            "Mamba",
-            "King",
-            "Tricycle",
-            "Dollhouse",
-            "Sauce",
-            "Garlic"
-          ]
-        },
-        {
-          "game_id": 7,
-          "target_word": "Chrysanthemum",
-          "candidate_list": [
-            "Chrysanthemum",
-            "Dandelion",
-            "Sturgeon",
-            "Trout",
-            "Seeds",
-            "Edger",
-            "Rosemary",
-            "Chives"
-          ]
-        },
-        {
-          "game_id": 8,
-          "target_word": "Cinnamon",
-          "candidate_list": [
-            "Cinnamon",
-            "Basil",
-            "Dog",
-            "Child",
-            "Latin",
-            "Classical",
-            "Coke",
-            "Lemonade"
-          ]
-        },
-        {
-          "game_id": 9,
-          "target_word": "Running",
-          "candidate_list": [
-            "Running",
+            "Racer",
+            "Asp",
+            "Ebola",
+            "HIV",
             "Track",
-            "Cornerback",
-            "Coach",
-            "Scarf",
-            "Gloves",
-            "Heirlooms",
-            "Clothes"
+            "Swimming",
+            "Sports",
+            "Dodge"
           ]
         }
       ],
@@ -169,142 +85,58 @@
       "game_instances": [
         {
           "game_id": 0,
-          "target_word": "Centimeter",
+          "target_word": "Cottonmouth",
           "candidate_list": [
-            "Cave",
-            "Cliff",
-            "Waterfall",
-            "Ocean",
-            "Kilometer",
-            "Centimeter",
-            "Furlong",
-            "Yard"
+            "Python",
+            "Anaconda",
+            "Cottonmouth",
+            "Rattlesnake",
+            "Mosquito",
+            "Fly",
+            "Glider",
+            "Airplane"
           ]
         },
         {
           "game_id": 1,
-          "target_word": "Flounder",
+          "target_word": "Island",
           "candidate_list": [
-            "Minnow",
-            "Goldfish",
-            "Halibut",
-            "Flounder",
-            "Exclamation",
-            "Speaking",
-            "Adverb",
-            "Verb"
+            "Clover",
+            "Celery",
+            "Lettuce",
+            "Kale",
+            "Lake",
+            "Ocean",
+            "Island",
+            "Plain"
           ]
         },
         {
           "game_id": 2,
-          "target_word": "Lieutenant",
+          "target_word": "Basement",
           "candidate_list": [
-            "Propane",
-            "Kerosene",
-            "Petroleum",
-            "Coal",
-            "Major",
-            "Lieutenant",
-            "Corporal",
-            "Sergeant"
+            "Attic",
+            "Basement",
+            "Foyer",
+            "Bathroom",
+            "Tights",
+            "Socks",
+            "Panties",
+            "Pants"
           ]
         },
         {
           "game_id": 3,
-          "target_word": "Oboe",
+          "target_word": "Clogs",
           "candidate_list": [
-            "Lettuce",
-            "Kale",
-            "Avocado",
-            "Grape",
-            "Bassoon",
-            "Oboe",
-            "Clarinet",
-            "Saxophone"
-          ]
-        },
-        {
-          "game_id": 4,
-          "target_word": "Salesperson",
-          "candidate_list": [
-            "Lawyer",
-            "Attorney",
-            "Clerk",
-            "Salesperson",
-            "Screwdriver",
-            "Awl",
-            "Knife",
-            "Axe"
-          ]
-        },
-        {
-          "game_id": 5,
-          "target_word": "Tequila",
-          "candidate_list": [
-            "Spoon",
-            "Cup",
-            "Bowl",
-            "Ladle",
-            "Tequila",
-            "Brandy",
-            "Margarita",
-            "Martini"
-          ]
-        },
-        {
-          "game_id": 6,
-          "target_word": "Typhoon",
-          "candidate_list": [
-            "Canoe",
-            "Skiff",
-            "Battleship",
-            "Destroyer",
-            "Flood",
-            "Earthquake",
-            "Typhoon",
-            "Tornado"
-          ]
-        },
-        {
-          "game_id": 7,
-          "target_word": "Millipede",
-          "candidate_list": [
-            "Gardenia",
-            "Lilac",
-            "Pansy",
-            "Violet",
-            "Bee",
-            "Ant",
-            "Centipede",
-            "Millipede"
-          ]
-        },
-        {
-          "game_id": 8,
-          "target_word": "Noisemaker",
-          "candidate_list": [
-            "Asparagus",
-            "Celery",
-            "Spinach",
-            "Artichoke",
-            "Television",
-            "Radio",
-            "Noisemaker",
-            "Fan"
-          ]
-        },
-        {
-          "game_id": 9,
-          "target_word": "Lion",
-          "candidate_list": [
-            "Beech",
-            "Willow",
-            "Cedar",
-            "Pine",
-            "Lion",
-            "Jaguar",
-            "Deer",
-            "Giraffe"
+            "Copper",
+            "Silver",
+            "Helium",
+            "Oxygen",
+            "Boots",
+            "Clogs",
+            "Cleats",
+            "Sandals"
           ]
         }
       ],
@@ -333,142 +165,58 @@
       "game_instances": [
         {
           "game_id": 0,
-          "target_word": "Cymbal",
+          "target_word": "Bra",
           "candidate_list": [
-            "Banjo",
-            "Guitar",
-            "Drum",
-            "Cymbal",
-            "Bugle",
-            "Trombone",
-            "Mandolin",
-            "Harp"
+            "Earrings",
+            "Necklace",
+            "Jeans",
+            "Shorts",
+            "Bra",
+            "Underwear",
+            "Leggings",
+            "Scarf"
           ]
         },
         {
           "game_id": 1,
-          "target_word": "Pansy",
+          "target_word": "Helicopter",
           "candidate_list": [
-            "Gardenia",
-            "Lilac",
-            "Tulip",
-            "Lily",
-            "Pansy",
-            "Violet",
-            "Marigold",
-            "Petunia"
+            "Train",
+            "Bus",
+            "Helicopter",
+            "Airplane",
+            "Tractor",
+            "RV",
+            "Convertible",
+            "Sedan"
           ]
         },
         {
           "game_id": 2,
-          "target_word": "Husband",
+          "target_word": "Nephew",
           "candidate_list": [
-            "Nephew",
-            "Uncle",
-            "Grandfather",
             "Grandmother",
+            "Grandfather",
+            "Aunt",
+            "Niece",
+            "Uncle",
+            "Nephew",
             "Father",
-            "Mother",
-            "Wife",
-            "Husband"
+            "Mother"
           ]
         },
         {
           "game_id": 3,
-          "target_word": "Ant",
+          "target_word": "Crow",
           "candidate_list": [
-            "Bug",
-            "Termite",
-            "Ant",
-            "Bee",
-            "Gnat",
-            "Mosquito",
-            "Butterfly",
-            "Moth"
-          ]
-        },
-        {
-          "game_id": 4,
-          "target_word": "Mango",
-          "candidate_list": [
-            "Pineapple",
-            "Banana",
-            "Melon",
-            "Pear",
-            "Lemon",
-            "Orange",
-            "Apricot",
-            "Mango"
-          ]
-        },
-        {
-          "game_id": 5,
-          "target_word": "Topaz",
-          "candidate_list": [
-            "Turquoise",
-            "Opal",
-            "Topaz",
-            "Amethyst",
-            "Pearl",
-            "Ruby",
-            "Aquamarine",
-            "Emerald"
-          ]
-        },
-        {
-          "game_id": 6,
-          "target_word": "Scarf",
-          "candidate_list": [
-            "Stockings",
-            "Tights",
-            "Scarf",
-            "Shirt",
-            "Panties",
-            "Pants",
-            "Underwear",
-            "Bra"
-          ]
-        },
-        {
-          "game_id": 7,
-          "target_word": "Pontoon",
-          "candidate_list": [
-            "Canoe",
-            "Dinghy",
-            "Battleship",
-            "Destroyer",
-            "Tugboat",
-            "Ferry",
-            "Pontoon",
-            "Houseboat"
-          ]
-        },
-        {
-          "game_id": 8,
-          "target_word": "Reverend",
-          "candidate_list": [
-            "Reverend",
-            "Rabbi",
-            "Nun",
-            "Monk",
-            "Minister",
-            "Pastor",
-            "Archbishop",
-            "Cardinal"
-          ]
-        },
-        {
-          "game_id": 9,
-          "target_word": "Flounder",
-          "candidate_list": [
-            "Halibut",
-            "Flounder",
-            "Carp",
-            "Catfish",
-            "Grouper",
-            "Mackerel",
-            "Minnow",
-            "Goldfish"
+            "Raven",
+            "Crow",
+            "Eagle",
+            "Vulture",
+            "Goose",
+            "Duck",
+            "Finch",
+            "Starling"
           ]
         }
       ],
@@ -497,142 +245,58 @@
       "game_instances": [
         {
           "game_id": 0,
-          "target_word": "actor",
+          "target_word": "anthropology",
           "candidate_list": [
-            "postman",
-            "actor",
-            "flatmate",
-            "bos",
-            "dietician",
-            "nurse",
-            "name",
-            "infinitive"
+            "direct",
+            "dominant",
+            "dispute",
+            "espionage",
+            "anthropology",
+            "chemistry",
+            "fireman",
+            "writer"
           ]
         },
         {
           "game_id": 1,
-          "target_word": "magistrate",
+          "target_word": "neuroscience",
           "candidate_list": [
-            "polygon",
-            "crescent",
-            "lawyer",
-            "magistrate",
-            "bowl",
-            "tube",
-            "relay",
-            "soccer"
+            "work",
+            "laud",
+            "salt",
+            "operator",
+            "parallelepiped",
+            "table",
+            "acid",
+            "neuroscience"
           ]
         },
         {
           "game_id": 2,
-          "target_word": "stepbrother",
+          "target_word": "diarrhoea",
           "candidate_list": [
-            "son",
-            "stepbrother",
-            "fever",
-            "sty",
-            "windsurfing",
-            "paragliding",
-            "optician",
-            "neurosurgeon"
+            "exhilarated",
+            "guilt",
+            "polygon",
+            "crescent",
+            "diarrhoea",
+            "shaking",
+            "rugby",
+            "bobsleigh"
           ]
         },
         {
           "game_id": 3,
-          "target_word": "paganism",
+          "target_word": "partner",
           "candidate_list": [
-            "lunchtime",
-            "evening",
-            "fainting",
-            "swelling",
-            "paganism",
-            "wiccan",
-            "knight",
-            "sir"
-          ]
-        },
-        {
-          "game_id": 4,
-          "target_word": "wet",
-          "candidate_list": [
-            "wet",
-            "dry",
-            "lady",
-            "duke",
-            "anniversary",
-            "prom",
-            "democrat",
-            "idealism"
-          ]
-        },
-        {
-          "game_id": 5,
-          "target_word": "lying",
-          "candidate_list": [
-            "schizophrenia",
-            "sociopath",
-            "acquaintance",
-            "employee",
-            "parsec",
-            "pitch",
-            "lying",
-            "annoying"
-          ]
-        },
-        {
-          "game_id": 6,
-          "target_word": "afternoon",
-          "candidate_list": [
-            "birthday",
-            "marriage",
-            "laud",
-            "afternoon",
-            "optometrist",
-            "podiatry",
-            "spot",
-            "sweating"
-          ]
-        },
-        {
-          "game_id": 7,
-          "target_word": "one",
-          "candidate_list": [
-            "outlier",
-            "datum",
-            "psychotic",
-            "greed",
-            "league",
-            "knot",
-            "one",
-            "twenty-nine"
-          ]
-        },
-        {
-          "game_id": 8,
-          "target_word": "cannibalism",
-          "candidate_list": [
-            "trespassing",
-            "urination",
-            "infanticide",
-            "cannibalism",
-            "intrigued",
-            "smiling",
-            "twenty-seven",
-            "nine"
-          ]
-        },
-        {
-          "game_id": 9,
-          "target_word": "pleasure",
-          "candidate_list": [
-            "enemy",
-            "fiance",
-            "pleasure",
-            "cheering",
-            "reference",
-            "reality",
-            "percent",
-            "seventh"
+            "animism",
+            "sikhism",
+            "partner",
+            "coauthor",
+            "geriatrician",
+            "psychologist",
+            "noon",
+            "teatime"
           ]
         }
       ],
@@ -661,142 +325,58 @@
       "game_instances": [
         {
           "game_id": 0,
-          "target_word": "extrovert",
+          "target_word": "boredom",
           "candidate_list": [
-            "hurdle",
-            "fencing",
-            "surfing",
-            "swimming",
-            "hostile",
-            "friendly",
-            "leader",
-            "extrovert"
+            "rage",
+            "infuriation",
+            "boredom",
+            "disappointment",
+            "earl",
+            "duke",
+            "prince",
+            "princes"
           ]
         },
         {
           "game_id": 1,
-          "target_word": "dermatology",
+          "target_word": "autism",
           "candidate_list": [
-            "pathology",
-            "radiology",
-            "oncology",
-            "dermatology",
-            "gp",
-            "surgeon",
-            "dentist",
-            "physician"
+            "bulimia",
+            "anorexia",
+            "adhd",
+            "autism",
+            "year",
+            "month",
+            "nanosecond",
+            "microsecond"
           ]
         },
         {
           "game_id": 2,
-          "target_word": "technology",
+          "target_word": "quarter",
           "candidate_list": [
-            "french",
-            "spanish",
-            "technology",
-            "engineering",
-            "twenty-three",
-            "eleven",
-            "one",
-            "seven"
+            "eleventh",
+            "thirteenth",
+            "quarter",
+            "half",
+            "extrovert",
+            "leader",
+            "friendly",
+            "hostile"
           ]
         },
         {
           "game_id": 3,
-          "target_word": "sociopath",
+          "target_word": "shoplifting",
           "candidate_list": [
-            "lunchtime",
-            "suppertime",
-            "breakfast",
-            "teatime",
-            "anorexia",
-            "bulimia",
-            "sociopath",
-            "psychopath"
-          ]
-        },
-        {
-          "game_id": 4,
-          "target_word": "buddhism",
-          "candidate_list": [
-            "half",
-            "quarter",
-            "sixteenth",
-            "ninth",
-            "taoism",
-            "jainism",
-            "scientology",
-            "buddhism"
-          ]
-        },
-        {
-          "game_id": 5,
-          "target_word": "third",
-          "candidate_list": [
-            "sixth",
-            "fourth",
-            "third",
-            "tenth",
-            "name",
-            "word",
-            "verb",
-            "adverb"
-          ]
-        },
-        {
-          "game_id": 6,
-          "target_word": "king",
-          "candidate_list": [
-            "tsar",
-            "king",
-            "princes",
-            "prince",
-            "noon",
-            "dusk",
-            "afternoon",
-            "evening"
-          ]
-        },
-        {
-          "game_id": 7,
-          "target_word": "decahedron",
-          "candidate_list": [
-            "grandson",
-            "granddaughter",
-            "mother-in-law",
-            "sister-in-law",
-            "trapezium",
-            "parallelogram",
-            "decahedron",
-            "dodecahedron"
-          ]
-        },
-        {
-          "game_id": 8,
-          "target_word": "hairdresser",
-          "candidate_list": [
-            "nanometre",
-            "centimetre",
-            "mile",
-            "fathom",
-            "hairdresser",
-            "plumber",
-            "author",
-            "presenter"
-          ]
-        },
-        {
-          "game_id": 9,
-          "target_word": "drawing",
-          "candidate_list": [
+            "gp",
+            "surgeon",
+            "osteopath",
+            "psychotherapist",
             "shoplifting",
-            "robbery",
+            "embezzlement",
             "stealing",
-            "burglary",
-            "building",
-            "monument",
-            "illustration",
-            "drawing"
+            "theft"
           ]
         }
       ],
@@ -825,142 +405,58 @@
       "game_instances": [
         {
           "game_id": 0,
-          "target_word": "monster",
+          "target_word": "morning",
           "candidate_list": [
-            "troll",
-            "minotaur",
-            "psychic",
-            "witch",
-            "monster",
-            "unicorn",
-            "vampire",
-            "goblin"
+            "afternoon",
+            "evening",
+            "bedtime",
+            "sunset",
+            "lunchtime",
+            "suppertime",
+            "nap",
+            "morning"
           ]
         },
         {
           "game_id": 1,
-          "target_word": "corporal",
+          "target_word": "manslaughter",
           "candidate_list": [
-            "gunner",
-            "officer",
-            "corporal",
-            "sergeant",
-            "captain",
-            "major",
-            "general",
-            "brigadier"
+            "murder",
+            "manslaughter",
+            "shoplifting",
+            "embezzlement",
+            "theft",
+            "stealing",
+            "littering",
+            "loitering"
           ]
         },
         {
           "game_id": 2,
-          "target_word": "teaspoon",
+          "target_word": "researcher",
           "candidate_list": [
-            "ton",
-            "pound",
-            "microgram",
-            "milligram",
-            "millilitre",
-            "litre",
-            "tablespoon",
-            "teaspoon"
+            "researcher",
+            "mathematician",
+            "businessman",
+            "accountant",
+            "butcher",
+            "baker",
+            "teacher",
+            "lecturer"
           ]
         },
         {
           "game_id": 3,
-          "target_word": "parallelogram",
+          "target_word": "boxing",
           "candidate_list": [
-            "oblong",
-            "semicircle",
-            "nonagon",
-            "heptagon",
-            "trapezium",
-            "parallelogram",
-            "dodecahedron",
-            "decahedron"
-          ]
-        },
-        {
-          "game_id": 4,
-          "target_word": "butcher",
-          "candidate_list": [
-            "baker",
-            "butcher",
-            "accountant",
-            "businessman",
-            "musician",
-            "dancer",
-            "hairdresser",
-            "plumber"
-          ]
-        },
-        {
-          "game_id": 5,
-          "target_word": "afternoon",
-          "candidate_list": [
-            "midday",
-            "sunrise",
-            "suppertime",
-            "lunchtime",
-            "afternoon",
-            "evening",
-            "breakfast",
-            "brunch"
-          ]
-        },
-        {
-          "game_id": 6,
-          "target_word": "chiropractor",
-          "candidate_list": [
-            "technician",
-            "optician",
-            "psychotherapist",
-            "chiropractor",
-            "surgeon",
-            "gp",
-            "nurse",
-            "pharmacist"
-          ]
-        },
-        {
-          "game_id": 7,
-          "target_word": "taoism",
-          "candidate_list": [
-            "hinduism",
-            "scientology",
-            "taoism",
-            "jainism",
-            "christianity",
-            "sikhism",
-            "protestant",
-            "quaker"
-          ]
-        },
-        {
-          "game_id": 8,
-          "target_word": "canoeing",
-          "candidate_list": [
-            "sledding",
-            "cycling",
             "football",
             "boxing",
-            "swimming",
-            "surfing",
             "canoeing",
-            "kayaking"
-          ]
-        },
-        {
-          "game_id": 9,
-          "target_word": "herpes",
-          "candidate_list": [
-            "cholera",
-            "herpes",
-            "smallpox",
-            "chickenpox",
-            "chlamydia",
-            "gonorrhoea",
-            "depression",
-            "anxiety"
+            "kayaking",
+            "taekwondo",
+            "karate",
+            "archery",
+            "sledding"
           ]
         }
       ],

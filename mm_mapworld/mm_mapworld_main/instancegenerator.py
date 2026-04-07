@@ -15,10 +15,10 @@ import shutil
 # set the name of the game in the script, as you named the directory
 # this name will be used everywhere, including in the table of results
 
-NUM_INSTANCES = 10
+NUM_INSTANCES = 5
 GRIDS = {"small": (4,4), "medium": (4,4), "large": (4,4)}
 SIZES = {"small": 4, "medium": 6, "large": 8} # num_nodes
-SEED = 42
+SEED = 40
 CAPTIONS = True
 RANDOM_PATH = 'random_test_images'
 IMAGE_PATH = os.path.join("resources", "images")
@@ -139,7 +139,7 @@ class MmMapWorldInstanceGenerator(GameInstanceGenerator):
     def __init__(self):
         # always do this to initialise GameInstanceGenerator
         super().__init__(os.path.dirname(os.path.abspath(__file__)))
-    def on_generate(self):
+    def on_generate(self, seed=40, **kwargs):
         prompts = {
             'initial': self.load_template(os.path.join('resources', 'initial_prompts', 'prompt.template')),
             'initial_one_shot': self.load_template(os.path.join('resources', 'initial_prompts', 'prompt_one_shot.template')),

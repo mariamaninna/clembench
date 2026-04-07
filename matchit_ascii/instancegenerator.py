@@ -6,7 +6,7 @@ from typing import Dict
 from clemcore.clemgame import GameInstanceGenerator
 
 # n instances to be generated
-N: int = 10  # max = len(similar_grid_1) = 27, if not using other grid pairs
+N: int = 6  # max = len(similar_grid_1) = 27, if not using other grid pairs
 # paths to image pair tables
 # PATH_PAIRS: str = "resources/grid_pairs/grid-pairs.csv"
 PATH_PAIRS: str = os.path.join("resources", "grid_pairs", "grid-pairs.csv")
@@ -96,4 +96,4 @@ class MatchItAsciiInstanceGenerator(GameInstanceGenerator):
 
 
 if __name__ == "__main__":
-    MatchItAsciiInstanceGenerator().generate(seed=123)
+    MatchItAsciiInstanceGenerator().generate(seed=40)

@@ -5,302 +5,77 @@
       "game_instances": [
         {
           "game_id": 0,
-          "target_word": "away",
+          "target_word": "exactly",
           "related_word": [
-            "gone",
-            "distance",
-            "here"
+            "precisely",
+            "accurately",
+            "specifically"
           ],
-          "target_word_stem": "away",
+          "target_word_stem": "exact",
           "related_word_stem": [
-            "gone",
-            "distanc",
-            "here"
+            "precis",
+            "accur",
+            "specif"
           ]
         },
         {
           "game_id": 1,
-          "target_word": "respect",
+          "target_word": "optical",
           "related_word": [
-            "consideration",
-            "deference",
-            "regard"
+            "lens",
+            "light",
+            "spectrometer"
           ],
-          "target_word_stem": "respect",
+          "target_word_stem": "optic",
           "related_word_stem": [
-            "considerat",
-            "defer",
-            "regard"
+            "len",
+            "light",
+            "spectromet"
           ]
         },
         {
           "game_id": 2,
-          "target_word": "band",
+          "target_word": "daily",
           "related_word": [
-            "music",
-            "loop",
-            "group"
+            "routine",
+            "habitual",
+            "everyday"
           ],
-          "target_word_stem": "band",
+          "target_word_stem": "daili",
           "related_word_stem": [
-            "music",
-            "loop",
-            "group"
+            "routin",
+            "habitu",
+            "everyday"
           ]
         },
         {
           "game_id": 3,
-          "target_word": "finance",
+          "target_word": "assistance",
           "related_word": [
-            "resources",
-            "money",
-            "fund"
+            "help",
+            "support",
+            "aid"
           ],
-          "target_word_stem": "finance",
+          "target_word_stem": "assist",
           "related_word_stem": [
-            "resource",
-            "money",
-            "fund"
+            "help",
+            "support",
+            "aid"
           ]
         },
         {
           "game_id": 4,
-          "target_word": "western",
+          "target_word": "var",
           "related_word": [
-            "eastern",
-            "cowboy",
-            "movie"
+            "variable",
+            "variance",
+            "placeholder"
           ],
-          "target_word_stem": "western",
+          "target_word_stem": "var",
           "related_word_stem": [
-            "easter",
-            "cowboy",
-            "movie"
-          ]
-        },
-        {
-          "game_id": 5,
-          "target_word": "tea",
-          "related_word": [
-            "coffee",
-            "caffeine",
-            "brew"
-          ],
-          "target_word_stem": "tea",
-          "related_word_stem": [
-            "coffee",
-            "caffein",
-            "brew"
-          ]
-        },
-        {
-          "game_id": 6,
-          "target_word": "reach",
-          "related_word": [
-            "stretch",
-            "extend",
-            "distance"
-          ],
-          "target_word_stem": "reach",
-          "related_word_stem": [
-            "stretch",
-            "exten",
-            "distanc"
-          ]
-        },
-        {
-          "game_id": 7,
-          "target_word": "protect",
-          "related_word": [
-            "guard",
-            "safe",
-            "defend"
-          ],
-          "target_word_stem": "protect",
-          "related_word_stem": [
-            "guard",
-            "safe",
-            "defen"
-          ]
-        },
-        {
-          "game_id": 8,
-          "target_word": "faq",
-          "related_word": [
-            "list",
-            "question",
-            "answer"
-          ],
-          "target_word_stem": "faq",
-          "related_word_stem": [
-            "list",
-            "question",
-            "answer"
-          ]
-        },
-        {
-          "game_id": 9,
-          "target_word": "least",
-          "related_word": [
-            "amount",
-            "most",
-            "little"
-          ],
-          "target_word_stem": "least",
-          "related_word_stem": [
-            "amount",
-            "most",
-            "little"
-          ]
-        },
-        {
-          "game_id": 10,
-          "target_word": "attack",
-          "related_word": [
-            "war",
-            "fight",
-            "strike"
-          ],
-          "target_word_stem": "attack",
-          "related_word_stem": [
-            "war",
-            "fight",
-            "strik"
-          ]
-        },
-        {
-          "game_id": 11,
-          "target_word": "woman",
-          "related_word": [
-            "female",
-            "girl",
-            "lady"
-          ],
-          "target_word_stem": "woman",
-          "related_word_stem": [
-            "femal",
-            "girl",
-            "ladi"
-          ]
-        },
-        {
-          "game_id": 12,
-          "target_word": "wing",
-          "related_word": [
-            "feather",
-            "fly",
-            "bird"
-          ],
-          "target_word_stem": "wing",
-          "related_word_stem": [
-            "feather",
-            "fly",
-            "bird"
-          ]
-        },
-        {
-          "game_id": 13,
-          "target_word": "marine",
-          "related_word": [
-            "aquatic",
-            "nautical",
-            "oceangoing"
-          ],
-          "target_word_stem": "marin",
-          "related_word_stem": [
-            "aquat",
-            "nautic",
-            "oceango"
-          ]
-        },
-        {
-          "game_id": 14,
-          "target_word": "just",
-          "related_word": [
-            "barely",
-            "fair",
-            "equitable"
-          ],
-          "target_word_stem": "just",
-          "related_word_stem": [
-            "bare",
-            "fair",
-            "equit"
-          ]
-        },
-        {
-          "game_id": 15,
-          "target_word": "guard",
-          "related_word": [
-            "security",
-            "protect",
-            "defend"
-          ],
-          "target_word_stem": "guard",
-          "related_word_stem": [
-            "secur",
-            "protect",
-            "defend"
-          ]
-        },
-        {
-          "game_id": 16,
-          "target_word": "field",
-          "related_word": [
-            "farm",
-            "grass",
-            "area"
-          ],
-          "target_word_stem": "field",
-          "related_word_stem": [
-            "farm",
-            "grass",
-            "area"
-          ]
-        },
-        {
-          "game_id": 17,
-          "target_word": "pricing",
-          "related_word": [
-            "evaluation",
-            "cost",
-            "value"
-          ],
-          "target_word_stem": "price",
-          "related_word_stem": [
-            "evalu",
-            "cost",
-            "value"
-          ]
-        },
-        {
-          "game_id": 18,
-          "target_word": "must",
-          "related_word": [
-            "should",
-            "essential",
-            "have"
-          ],
-          "target_word_stem": "must",
-          "related_word_stem": [
-            "shoul",
-            "essenti",
-            "have"
-          ]
-        },
-        {
-          "game_id": 19,
-          "target_word": "late",
-          "related_word": [
-            "slow",
-            "delay",
-            "early"
-          ],
-          "target_word_stem": "late",
-          "related_word_stem": [
-            "slow",
-            "delay",
-            "earl"
+            "variabl",
+            "varianc",
+            "placehold"
           ]
         }
       ],
@@ -313,302 +88,77 @@
       "game_instances": [
         {
           "game_id": 0,
-          "target_word": "declaration",
+          "target_word": "oem",
           "related_word": [
-            "law",
-            "resolution",
-            "testimony"
+            "manufacturer",
+            "component",
+            "brand"
           ],
-          "target_word_stem": "declar",
+          "target_word_stem": "oem",
           "related_word_stem": [
-            "law",
-            "resolut",
-            "testimoni"
+            "manufactur",
+            "compon",
+            "brand"
           ]
         },
         {
           "game_id": 1,
-          "target_word": "bill",
+          "target_word": "nursery",
           "related_word": [
-            "pay",
-            "charge",
-            "invoice"
+            "crib",
+            "stroller",
+            "playpen"
           ],
-          "target_word_stem": "bill",
+          "target_word_stem": "nurseri",
           "related_word_stem": [
-            "pay",
-            "charg",
-            "invoic"
+            "crib",
+            "stroller",
+            "playpen"
           ]
         },
         {
           "game_id": 2,
-          "target_word": "prospective",
+          "target_word": "pee",
           "related_word": [
-            "foresight",
-            "potential",
-            "future"
+            "urine",
+            "bladder",
+            "restroom"
           ],
-          "target_word_stem": "prospect",
+          "target_word_stem": "pee",
           "related_word_stem": [
-            "foresight",
-            "potenti",
-            "futur"
+            "urin",
+            "bladder",
+            "restroom"
           ]
         },
         {
           "game_id": 3,
-          "target_word": "violation",
+          "target_word": "dale",
           "related_word": [
-            "transgression",
-            "misdemeanor",
-            "offence"
+            "valley",
+            "meadow",
+            "ridge"
           ],
-          "target_word_stem": "violat",
+          "target_word_stem": "dale",
           "related_word_stem": [
-            "transgress",
-            "misdemeanor",
-            "offen"
+            "valley",
+            "meadow",
+            "ridg"
           ]
         },
         {
           "game_id": 4,
-          "target_word": "matrix",
+          "target_word": "symptom",
           "related_word": [
-            "array",
-            "table",
-            "model"
+            "sign",
+            "indication",
+            "manifestation"
           ],
-          "target_word_stem": "matri",
+          "target_word_stem": "symptom",
           "related_word_stem": [
-            "array",
-            "table",
-            "model"
-          ]
-        },
-        {
-          "game_id": 5,
-          "target_word": "alabama",
-          "related_word": [
-            "usa",
-            "state",
-            "river"
-          ],
-          "target_word_stem": "alabama",
-          "related_word_stem": [
-            "usa",
-            "state",
-            "river"
-          ]
-        },
-        {
-          "game_id": 6,
-          "target_word": "steward",
-          "related_word": [
-            "attendant",
-            "caretaker",
-            "servant"
-          ],
-          "target_word_stem": "steward",
-          "related_word_stem": [
-            "attendant",
-            "caretaker",
-            "servant"
-          ]
-        },
-        {
-          "game_id": 7,
-          "target_word": "queue",
-          "related_word": [
-            "line",
-            "row",
-            "chain"
-          ],
-          "target_word_stem": "queue",
-          "related_word_stem": [
-            "line",
-            "row",
-            "chain"
-          ]
-        },
-        {
-          "game_id": 8,
-          "target_word": "demo",
-          "related_word": [
-            "rally",
-            "show",
-            "model"
-          ],
-          "target_word_stem": "demo",
-          "related_word_stem": [
-            "rally",
-            "show",
-            "model"
-          ]
-        },
-        {
-          "game_id": 9,
-          "target_word": "sword",
-          "related_word": [
-            "blade",
-            "weapon",
-            "sharp"
-          ],
-          "target_word_stem": "sword",
-          "related_word_stem": [
-            "blade",
-            "weapon",
-            "sharp"
-          ]
-        },
-        {
-          "game_id": 10,
-          "target_word": "surprise",
-          "related_word": [
-            "party",
-            "shock",
-            "unexpected"
-          ],
-          "target_word_stem": "surpris",
-          "related_word_stem": [
-            "part",
-            "shock",
-            "unexpect"
-          ]
-        },
-        {
-          "game_id": 11,
-          "target_word": "murphy",
-          "related_word": [
-            "irish",
-            "potato",
-            "con"
-          ],
-          "target_word_stem": "murph",
-          "related_word_stem": [
-            "irish",
-            "potato",
-            "con"
-          ]
-        },
-        {
-          "game_id": 12,
-          "target_word": "demographic",
-          "related_word": [
-            "people",
-            "group",
-            "statistic"
-          ],
-          "target_word_stem": "demograph",
-          "related_word_stem": [
-            "people",
-            "group",
-            "statist"
-          ]
-        },
-        {
-          "game_id": 13,
-          "target_word": "normally",
-          "related_word": [
-            "unremarkably",
-            "regularly",
-            "usually"
-          ],
-          "target_word_stem": "normal",
-          "related_word_stem": [
-            "unremark",
-            "regular",
-            "usual"
-          ]
-        },
-        {
-          "game_id": 14,
-          "target_word": "sweep",
-          "related_word": [
-            "clean",
-            "cover",
-            "brush"
-          ],
-          "target_word_stem": "sweep",
-          "related_word_stem": [
-            "clean",
-            "cover",
-            "brush"
-          ]
-        },
-        {
-          "game_id": 15,
-          "target_word": "toilet",
-          "related_word": [
-            "flush",
-            "restroom",
-            "urinate"
-          ],
-          "target_word_stem": "toilet",
-          "related_word_stem": [
-            "flush",
-            "restroom",
-            "urin"
-          ]
-        },
-        {
-          "game_id": 16,
-          "target_word": "emphasize",
-          "related_word": [
-            "highlight",
-            "underscore",
-            "stress"
-          ],
-          "target_word_stem": "emphas",
-          "related_word_stem": [
-            "highlight",
-            "underscor",
-            "stress"
-          ]
-        },
-        {
-          "game_id": 17,
-          "target_word": "nick",
-          "related_word": [
-            "groove",
-            "dent",
-            "cut"
-          ],
-          "target_word_stem": "nick",
-          "related_word_stem": [
-            "groov",
-            "dent",
-            "cut"
-          ]
-        },
-        {
-          "game_id": 18,
-          "target_word": "georgia",
-          "related_word": [
-            "state",
-            "country",
-            "atlanta"
-          ],
-          "target_word_stem": "georgia",
-          "related_word_stem": [
-            "state",
-            "country",
-            "atlanta"
-          ]
-        },
-        {
-          "game_id": 19,
-          "target_word": "crucial",
-          "related_word": [
-            "critical",
-            "important",
-            "pivotal"
-          ],
-          "target_word_stem": "crucial",
-          "related_word_stem": [
-            "critic",
-            "important",
-            "pivot"
+            "sign",
+            "indic",
+            "manifest"
           ]
         }
       ],
@@ -621,302 +171,77 @@
       "game_instances": [
         {
           "game_id": 0,
-          "target_word": "novelty",
+          "target_word": "wichita",
           "related_word": [
-            "oddity",
-            "originality",
-            "freshness"
+            "Kansas",
+            "Cowboys",
+            "River"
           ],
-          "target_word_stem": "novelt",
+          "target_word_stem": "wichita",
           "related_word_stem": [
-            "odd",
-            "origin",
-            "fresh"
+            "kansa",
+            "cowboy",
+            "river"
           ]
         },
         {
           "game_id": 1,
-          "target_word": "notable",
+          "target_word": "grateful",
           "related_word": [
-            "important",
-            "outstanding",
-            "prominent"
+            "thankful",
+            "appreciative",
+            "obliged"
           ],
-          "target_word_stem": "notabl",
+          "target_word_stem": "grate",
           "related_word_stem": [
-            "far-importan",
-            "outstand",
-            "prominen"
+            "thank",
+            "appreci",
+            "oblig"
           ]
         },
         {
           "game_id": 2,
-          "target_word": "competent",
+          "target_word": "grande",
           "related_word": [
-            "efficient",
-            "skilled",
-            "capable"
+            "gigante",
+            "enorme",
+            "vasto"
           ],
-          "target_word_stem": "compet",
+          "target_word_stem": "grand",
           "related_word_stem": [
-            "effici",
-            "skill",
-            "capabl"
+            "gigant",
+            "enorm",
+            "vasto"
           ]
         },
         {
           "game_id": 3,
-          "target_word": "steady",
+          "target_word": "eval",
           "related_word": [
-            "constant",
-            "firm",
-            "even"
+            "execution",
+            "interpretation",
+            "security"
           ],
-          "target_word_stem": "stead",
+          "target_word_stem": "eval",
           "related_word_stem": [
-            "constant",
-            "firm",
-            "even"
+            "execut",
+            "interpret",
+            "secur"
           ]
         },
         {
           "game_id": 4,
-          "target_word": "sacrifice",
+          "target_word": "redirect",
           "related_word": [
-            "loss",
-            "victim",
-            "offering"
+            "reroute",
+            "forward",
+            "divert"
           ],
-          "target_word_stem": "sacrific",
+          "target_word_stem": "redirect",
           "related_word_stem": [
-            "loss",
-            "victim",
-            "offer"
-          ]
-        },
-        {
-          "game_id": 5,
-          "target_word": "database",
-          "related_word": [
-            "table",
-            "index",
-            "knowledge"
-          ],
-          "target_word_stem": "databas",
-          "related_word_stem": [
-            "table",
-            "index",
-            "knowledg"
-          ]
-        },
-        {
-          "game_id": 6,
-          "target_word": "spoon",
-          "related_word": [
-            "eating",
-            "dinner",
-            "bowl"
-          ],
-          "target_word_stem": "spoon",
-          "related_word_stem": [
-            "eat",
-            "dinner",
-            "bowl"
-          ]
-        },
-        {
-          "game_id": 7,
-          "target_word": "hotdog",
-          "related_word": [
-            "sausage",
-            "bread",
-            "frankfurter"
-          ],
-          "target_word_stem": "hotdog",
-          "related_word_stem": [
-            "sausage",
-            "bread",
-            "frankfurter"
-          ]
-        },
-        {
-          "game_id": 8,
-          "target_word": "boolean",
-          "related_word": [
-            "logic",
-            "true",
-            "programming"
-          ],
-          "target_word_stem": "bool",
-          "related_word_stem": [
-            "logic",
-            "true",
-            "program"
-          ]
-        },
-        {
-          "game_id": 9,
-          "target_word": "widow",
-          "related_word": [
-            "woman",
-            "husband",
-            "dead"
-          ],
-          "target_word_stem": "widow",
-          "related_word_stem": [
-            "woman",
-            "husband",
-            "dead"
-          ]
-        },
-        {
-          "game_id": 10,
-          "target_word": "troubleshoot",
-          "related_word": [
-            "fix",
-            "debug",
-            "diagnose"
-          ],
-          "target_word_stem": "troubleshoot",
-          "related_word_stem": [
-            "fix",
-            "debug",
-            "diagnos"
-          ]
-        },
-        {
-          "game_id": 11,
-          "target_word": "startup",
-          "related_word": [
-            "beginning",
-            "organization",
-            "company"
-          ],
-          "target_word_stem": "startup",
-          "related_word_stem": [
-            "begin",
-            "organ",
-            "company"
-          ]
-        },
-        {
-          "game_id": 12,
-          "target_word": "stakeholder",
-          "related_word": [
-            "partner",
-            "share",
-            "concerned"
-          ],
-          "target_word_stem": "stakehold",
-          "related_word_stem": [
-            "partner",
-            "share",
-            "concern"
-          ]
-        },
-        {
-          "game_id": 13,
-          "target_word": "wheat",
-          "related_word": [
-            "grain",
-            "grass",
-            "flour"
-          ],
-          "target_word_stem": "wheat",
-          "related_word_stem": [
-            "grain",
-            "grass",
-            "flour"
-          ]
-        },
-        {
-          "game_id": 14,
-          "target_word": "statue",
-          "related_word": [
-            "sculpture",
-            "monument",
-            "figure"
-          ],
-          "target_word_stem": "statu",
-          "related_word_stem": [
-            "sculpt",
-            "monument",
-            "figur"
-          ]
-        },
-        {
-          "game_id": 15,
-          "target_word": "phantom",
-          "related_word": [
-            "unreal",
-            "ghost",
-            "apparition"
-          ],
-          "target_word_stem": "phantom",
-          "related_word_stem": [
-            "unreal",
-            "ghost",
-            "apparit"
-          ]
-        },
-        {
-          "game_id": 16,
-          "target_word": "valium",
-          "related_word": [
-            "sleep",
-            "narcotic",
-            "diazepam"
-          ],
-          "target_word_stem": "valium",
-          "related_word_stem": [
-            "sleep",
-            "narcot",
-            "diazepam"
-          ]
-        },
-        {
-          "game_id": 17,
-          "target_word": "berth",
-          "related_word": [
-            "dock",
-            "port",
-            "position"
-          ],
-          "target_word_stem": "berth",
-          "related_word_stem": [
-            "dock",
-            "port",
-            "position"
-          ]
-        },
-        {
-          "game_id": 18,
-          "target_word": "wicket",
-          "related_word": [
-            "lattice",
-            "gate",
-            "door"
-          ],
-          "target_word_stem": "wicket",
-          "related_word_stem": [
-            "lattice",
-            "gate",
-            "door"
-          ]
-        },
-        {
-          "game_id": 19,
-          "target_word": "den",
-          "related_word": [
-            "cave",
-            "nest",
-            "lair"
-          ],
-          "target_word_stem": "den",
-          "related_word_stem": [
-            "cave",
-            "nest",
-            "lair"
+            "rerout",
+            "forward",
+            "divert"
           ]
         }
       ],

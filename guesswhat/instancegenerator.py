@@ -18,7 +18,7 @@ from clemcore.clemgame import GameInstanceGenerator
 num_words = 8
 
 # number of instances per experiment
-N_INSTANCES = 10
+N_INSTANCES = 4
 
 
 class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
@@ -264,4 +264,4 @@ class GuessWhatGameInstanceGenerator(GameInstanceGenerator):
 
 
 if __name__ == '__main__':
-    GuessWhatGameInstanceGenerator().generate(seed=42)
+    GuessWhatGameInstanceGenerator().generate(seed=40)

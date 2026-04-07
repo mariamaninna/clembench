@@ -239,7 +239,7 @@ class PrivateShared(DialogueGameMaster):
             self.state.request_counts[self.current_round] += 1  # requests to the answerer per round
 
     def _set_final_state(self):
-        successful = sum(self.state.filled_slots)/len(self.state.filled_slots) == 1 and self.state.probes_all_correct == True
+        successful = bool(self.state.filled_slots) and all(self.state.filled_slots) and self.state.probes_all_correct == True
         self.state.succeed() if successful else self.state.failed()
 
     def _on_after_round(self):

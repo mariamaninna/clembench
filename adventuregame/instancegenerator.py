@@ -42,7 +42,7 @@ class AdventureGameInstanceGenerator(GameInstanceGenerator):
             basic_prompt = self.load_template("resources/initial_prompts/basic_prompt_done")
             # TODO?: externalize which prompt templates to use into adventure_type/experiment_type definition(s)?
 
-            for adventure_id in tqdm(range(len(adventures[difficulty]))):
+            for adventure_id in tqdm(range(3)):
                 goal_str = adventures[difficulty][adventure_id]['goal']
 
                 initial_state = adventures[difficulty][adventure_id]['initial_state']
@@ -85,7 +85,7 @@ class AdventureGameInstanceGenerator(GameInstanceGenerator):
             # planning_prompt = self.load_template("resources/initial_prompts/plan_prompt")
             planning_prompt = self.load_template("resources/initial_prompts/plan_prompt_done")
 
-            for adventure_id in tqdm(range(len(adventures[difficulty]))):
+            for adventure_id in tqdm(range(3)):
                 goal_str = adventures[difficulty][adventure_id]['goal']
                 # first_room_str = adventures[adventure_id]['first_room']
 
@@ -128,7 +128,7 @@ class AdventureGameInstanceGenerator(GameInstanceGenerator):
             # Load the prepared initial prompt
             basic_invlimit_prompt = self.load_template("resources/initial_prompts/basic_prompt_done_invlimittwo")
 
-            for adventure_id in tqdm(range(len(adventures[difficulty]))):
+            for adventure_id in tqdm(range(3)):
                 goal_str = adventures[difficulty][adventure_id]['goal']
 
                 initial_state = adventures[difficulty][adventure_id]['initial_state']
@@ -171,7 +171,7 @@ class AdventureGameInstanceGenerator(GameInstanceGenerator):
             # Load the prepared initial prompt
             planning_invlimit_prompt = self.load_template("resources/initial_prompts/plan_prompt_done_invlimittwo")
 
-            for adventure_id in tqdm(range(len(adventures[difficulty]))):
+            for adventure_id in tqdm(range(3)):
                 goal_str = adventures[difficulty][adventure_id]['goal']
 
                 initial_state = adventures[difficulty][adventure_id]['initial_state']
@@ -209,4 +209,4 @@ class AdventureGameInstanceGenerator(GameInstanceGenerator):
 
 if __name__ == '__main__':
     # The resulting instances.json is automatically saved to the "in" directory of the game folder
-    AdventureGameInstanceGenerator().generate(seed=42, raw_adventures_file="curated_home_deliver_three_adventures_v2")
+    AdventureGameInstanceGenerator().generate(seed=40, raw_adventures_file="curated_home_deliver_three_adventures_v2_2_a")

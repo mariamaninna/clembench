@@ -17,7 +17,7 @@ random.seed(123)
 
 logger = logging.getLogger(__name__)
 
-MAX_NUMBER_INSTANCES = 30
+MAX_NUMBER_INSTANCES = 2
 
 class ReferenceGameInstanceGenerator(GameInstanceGenerator):
 
@@ -51,7 +51,7 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
         for s in file.readlines():
             line = json.loads(s)
 
-            image_path = os.path.join("resources", "docci_dataset", "images", line["example_id"], ".jpg")
+            image_path = os.path.join("resources", "docci_dataset", "images", line["example_id"] + ".jpg")
 
             for ann in line["cloud_vision_api_responses"]["labelAnnotations"]:
                 if ann["score"] >= 0.8:
@@ -157,6 +157,9 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
 
 
             for instance in exp['game_instances']:
+
+                if game_counter >= 2:
+                    break
 
                 player1_target_grid =self.process_grid(saved_grids, instance['player_1_target_grid'])
                 player_1_second_grid = self.process_grid(saved_grids, instance['player_1_second_grid'])
@@ -1080,14 +1083,14 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
             if game_counter >= MAX_NUMBER_INSTANCES:
                 break
 
-    def on_generate(self):
+    def on_generate(self, seed=40, **kwargs):
         self.generate_grid_instances()
-        self.generate_scene_instances()
+        #self.generate_scene_instances()
         self.generate_docci_instances()
         self.generate_clevr_instances()
         self.generate_clevr_static_target_instances()
         self.generate_docci_static_target_instances()
-        self.generate_scene_static_target_instances()
+        #self.generate_scene_static_target_instances()
         self.generate_pentomino_instances()
 
 if __name__ == '__main__':

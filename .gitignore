@@ -20,6 +20,13 @@ game_registry.json
 
 # cached images
 mapworld/escapegame/resources/images
+mm_mapworld/mm_mapworld_main/resources/images/
+multimodal_referencegame/resources
+textmapworld/textmapworld_main/generated/
+wordle/resources/target_words/en/new-york-times-crossword-clues-answers-19932021.zip
+wordle/resources/target_words/en/nytcrosswords.csv
+wordle/resources/target_words/en/official_recognized_words.txt
+
 
 # ipynb checkpoints
 .ipynb_checkpoints

@@ -10,7 +10,7 @@ import logging
 
 from clemcore.clemgame import GameInstanceGenerator
 
-N_INSTANCES = 20
+N_INSTANCES = 12
 
 logger = logging.getLogger(__name__)
 
@@ -136,7 +136,7 @@ class ImageGameInstanceGenerator(GameInstanceGenerator):
             experiment = self.add_experiment(grid_name)
             grid_dimension = 5
 
-            for grid_index in range(0, len(generated_grids[grid_name])):
+            for grid_index in range(0, min(N_INSTANCES, len(generated_grids[grid_name]))):
 
                 grid = generated_grids[grid_name][grid_index]
 
@@ -156,4 +156,4 @@ class ImageGameInstanceGenerator(GameInstanceGenerator):
 
 
 if __name__ == '__main__':
-    ImageGameInstanceGenerator().generate(seed=123)
+    ImageGameInstanceGenerator().generate(seed=40)
