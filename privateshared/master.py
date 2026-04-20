@@ -449,7 +449,7 @@ class PrivateSharedScorer(GameScorer):
         trunc_kappa = max(0, kappa) if not aborted else np.nan
         filled = logs['Filled Slots']
         # stdout_logger.warning(f"Filled slots: {filled}")
-        sf_acc = sum(filled) / len(filled) if not aborted else np.nan
+        sf_acc = sum(filled) / len(filled) if (not aborted and len(filled) > 0) else np.nan
         bench_score = PrivateSharedScorer.compute_bench_score(sf_acc, trunc_kappa)
 
         self.log_episode_score('Accuracy', acc)
@@ -471,7 +471,7 @@ class PrivateSharedScorer(GameScorer):
         self.log_episode_score(ms.METRIC_REQUEST_COUNT, reqs)
         self.log_episode_score(ms.METRIC_REQUEST_COUNT_PARSED, parsed_reqs)
         self.log_episode_score(ms.METRIC_REQUEST_COUNT_VIOLATED, violated_reqs)
-        self.log_episode_score(ms.METRIC_REQUEST_SUCCESS_RATIO, parsed_reqs / reqs)
+        self.log_episode_score(ms.METRIC_REQUEST_SUCCESS_RATIO, parsed_reqs / reqs if reqs > 0 else 0.0)
 
     def _get_gold_pred(self, turns: List) -> Tuple[List, List]:
         """Retrieve the gold standard and the predictions for all turns."""

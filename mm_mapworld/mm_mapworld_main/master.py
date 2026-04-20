@@ -170,6 +170,8 @@ class MmMapWorld(DialogueGameMaster):
         self.add_player(self.describer)
         self.add_player(self.walker)
 
+
+
     def _on_before_game(self):
         begin_message = json.dumps({
             "start": self.start,

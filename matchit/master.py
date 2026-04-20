@@ -190,6 +190,10 @@ class MatchIt(DialogueGameMaster):
         # decision turn
         elif self.current_round == self.decision_turn and player == self.player_b and self.answer_counter == 1:
             self.set_context_for(self.player_a, player.answer + "\n" + self.d_reprompt)
+        # decision turn - player A only answers (no question), forward to player B with answer request
+        elif self.current_round == self.decision_turn and player == self.player_a:
+            self.set_context_for(self.player_b, player.answer + self.a_request)
+            player.answer = ""
         # all other turns
         else:
             other_player = self.player_a if player == self.player_b else self.player_b
@@ -221,6 +225,9 @@ class MatchIt(DialogueGameMaster):
             # prepare next turn here
             if self.current_round == self.decision_turn and self.current_player == self.player_b:
                 self.set_context_for(self.current_player, self.d_reprompt)
+            elif self.current_round == self.decision_turn and self.current_player == self.player_a:
+                self.answer_counter = 0
+                return True
             elif self.current_round == 0:
                 self.set_context_for(self.current_player,
                                      self.desc_intro + self.player_a.description + "\n" + self.q_reprompt)
