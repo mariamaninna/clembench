@@ -135,7 +135,7 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
             file_path = os.path.join("resources", "grid_images", f"{len(saved_grids)}.png")
             self.plot_grid(ascii_grid, file_path)
 
-            saved_grids[grid] = os.path.join("games", "multimodal_referencegame", file_path)
+            saved_grids[grid] = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", file_path)
         return saved_grids[grid]
 
     def generate_grid_instances(self):
@@ -210,21 +210,21 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
             target_category_images = aed_dataset[target_category]
             target_image = self.select_random_item(target_category_images)
             shutil.copyfile(target_image, os.path.join("resources", "scene_images", f"{str(image_counter)}.jpg"))
-            target_image_path = os.path.join("games", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
+            target_image_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             # remove the target image from the list, select another image from the same category
             target_category_images.remove(target_image)
             distractor1 = self.select_random_item(target_category_images)
             shutil.copyfile(distractor1, os.path.join("resources", "scene_images", f"{str(image_counter)}.jpg"))
-            distractor1_path = os.path.join("games", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
+            distractor1_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             # remove the target image from the list, select another image from the same category
             target_category_images.remove(distractor1)
             distractor2 = self.select_random_item(target_category_images)
             shutil.copyfile(distractor2, os.path.join("resources", "scene_images", f"{str(image_counter)}.jpg"))
-            distractor2_path = os.path.join("games", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
+            distractor2_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             for i in [1, 2, 3]:
@@ -336,21 +336,21 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
                 target_category_images = aed_dataset[target_category]
                 target_image = self.select_random_item(target_category_images)
                 shutil.copyfile(target_image, os.path.join("resources", "scene_images", f"{str(image_counter)}.jpg"))
-                target_image_path = os.path.join("games", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
+                target_image_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
                 image_counter += 1
                 # remove the target image from the list, select another image from the same category
                 target_category_images.remove(target_image)
 
             distractor1 = self.select_random_item(target_category_images)
             shutil.copyfile(distractor1, os.path.join("resources", "scene_images", f"{str(image_counter)}.jpg"))
-            distractor1_path = os.path.join("games", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
+            distractor1_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             # remove the target image from the list, select another image from the same category
             target_category_images.remove(distractor1)
             distractor2 = self.select_random_item(target_category_images)
             shutil.copyfile(distractor2, os.path.join("resources", "scene_images", f"{str(image_counter)}.jpg"))
-            distractor2_path = os.path.join("games", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
+            distractor2_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "scene_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             for i in [1, 2, 3]:
@@ -453,21 +453,21 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
             target_category_images = docci_dataset[target_category]
             target_image = self.select_random_item(target_category_images)
             shutil.copyfile(target_image, os.path.join("resources", "docci_images", f"{str(image_counter)}.jpg"))
-            target_image_path = os.path.join("games", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
+            target_image_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             # remove the target image from the list, select another image from the same category
             target_category_images.remove(target_image)
             distractor1 = self.select_random_item(target_category_images)
             shutil.copyfile(distractor1, os.path.join("resources", "docci_images", f"{str(image_counter)}.jpg"))
-            distractor1_path = os.path.join("games", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
+            distractor1_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             # remove the distractor1 image from the list, select another image from the same category
             target_category_images.remove(distractor1)
             distractor2 = self.select_random_item(target_category_images)
             shutil.copyfile(distractor2, os.path.join("resources", "docci_images", f"{str(image_counter)}.jpg"))
-            distractor2_path = os.path.join("games", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
+            distractor2_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             for i in [1, 2, 3]:
@@ -583,7 +583,7 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
             target_category_images = docci_dataset[target_category]
             target_image = self.select_random_item(target_category_images)
             shutil.copyfile(target_image, os.path.join("resources", "docci_images", f"{str(image_counter)}.jpg"))
-            target_image_path = os.path.join("games", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
+            target_image_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
             image_counter += 1
             target_category_images.remove(target_image)
 
@@ -591,14 +591,14 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
 
             distractor1 = self.select_random_item(target_category_images)
             shutil.copyfile(distractor1, os.path.join("resources", "docci_images", f"{str(image_counter)}.jpg"))
-            distractor1_path = os.path.join("games", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
+            distractor1_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             # remove the distractor1 image from the list, select another image from the same category
             target_category_images.remove(distractor1)
             distractor2 = self.select_random_item(target_category_images)
             shutil.copyfile(distractor2, os.path.join("resources", "docci_images", f"{str(image_counter)}.jpg"))
-            distractor2_path = os.path.join("games", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
+            distractor2_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "docci_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             for i in [1, 2, 3]:
@@ -737,28 +737,28 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
             image2category.pop(distractor2)
 
 
-            shutil.copyfile(target_image, os.path.join("resources", "clevr_images", f"{str(image_counter)}.jpg"))
-            target_image_path = os.path.join("games", "multimodal_referencegame", "resources", "clevr_images", f"{str(image_counter)}.jpg")
+            shutil.copyfile(target_image, os.path.join("C:/Users/white/Desktop/agents_experiments/clembench/multimodal_referencegame/resources", "clevr_images", f"{str(image_counter)}.jpg"))
+            target_image_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "clevr_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             # remove the target image from the list, select another image from the same category
             target_category_images.remove(target_image)
             distractor1 = self.select_random_item(target_category_images)
-            shutil.copyfile(distractor1, os.path.join("resources", "clevr_images", f"{str(image_counter)}.jpg"))
-            distractor1_path = os.path.join("games", "multimodal_referencegame", "resources", "clevr_images", f"{str(image_counter)}.jpg")
+            shutil.copyfile(distractor1, os.path.join("C:/Users/white/Desktop/agents_experiments/clembench/multimodal_referencegame/resources", "clevr_images", f"{str(image_counter)}.jpg"))
+            distractor1_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "clevr_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             # remove the distractor1 image from the list, select another image from the same category
             target_category_images.remove(distractor1)
             distractor2 = self.select_random_item(target_category_images)
-            shutil.copyfile(distractor2, os.path.join("resources", "clevr_images", f"{str(image_counter)}.jpg"))
-            distractor2_path = os.path.join("games", "multimodal_referencegame", "resources", "clevr_images", f"{str(image_counter)}.jpg")
+            shutil.copyfile(distractor2, os.path.join("C:/Users/white/Desktop/agents_experiments/clembench/multimodal_referencegame/resources", "clevr_images", f"{str(image_counter)}.jpg"))
+            distractor2_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench", "multimodal_referencegame", "resources", "clevr_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             for i in [1, 2, 3]:
 
                 player_a_prompt_header = self.load_template(
-                    os.path.join("resources", "initial_prompts", "player_a_prompt_images.template"))
+                    os.path.join("C:/Users/white/Desktop/agents_experiments/clembench/multimodal_referencegame/resources", "initial_prompts", "player_a_prompt_images.template"))
                 game_instance = self.add_game_instance(experiment, game_counter)
 
                 player_1_first_image = ""
@@ -870,8 +870,8 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
                 target_categories = image2category[target_image]
                 image2category.pop(target_image)
 
-                shutil.copyfile(target_image, os.path.join("resources", "clevr_images", f"{str(image_counter)}.jpg"))
-                target_image_path = os.path.join("resources", "clevr_images", f"{str(image_counter)}.jpg")
+                shutil.copyfile(target_image, os.path.join("C:/Users/white/Desktop/agents_experiments/clembench/multimodal_referencegame/resources", "clevr_images", f"{str(image_counter)}.jpg"))
+                target_image_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench/multimodal_referencegame/resources", "clevr_images", f"{str(image_counter)}.jpg")
                 image_counter += 1
 
             distractor1 = self.select_distractor_for_clevr(target_categories, category2image, image2category)
@@ -880,12 +880,12 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
             distractor2 = self.select_distractor_for_clevr(target_categories, category2image, image2category)
             image2category.pop(distractor2)
 
-            shutil.copyfile(distractor1, os.path.join("resources", "clevr_images", f"{str(image_counter)}.jpg"))
-            distractor1_path = os.path.join("resources", "clevr_images", f"{str(image_counter)}.jpg")
+            shutil.copyfile(distractor1, os.path.join("C:/Users/white/Desktop/agents_experiments/clembench/multimodal_referencegame/resources", "clevr_images", f"{str(image_counter)}.jpg"))
+            distractor1_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench/multimodal_referencegame/resources", "clevr_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
-            shutil.copyfile(distractor2, os.path.join("resources", "clevr_images", f"{str(image_counter)}.jpg"))
-            distractor2_path = os.path.join("resources", "clevr_images", f"{str(image_counter)}.jpg")
+            shutil.copyfile(distractor2, os.path.join("C:/Users/white/Desktop/agents_experiments/clembench/multimodal_referencegame/resources", "clevr_images", f"{str(image_counter)}.jpg"))
+            distractor2_path = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench/multimodal_referencegame/resources", "clevr_images", f"{str(image_counter)}.jpg")
             image_counter += 1
 
             for i in [1, 2, 3]:
@@ -980,7 +980,7 @@ class ReferenceGameInstanceGenerator(GameInstanceGenerator):
 
         game_counter = 0
         image_counter = 1
-        image_directory = os.path.join("resources", "pentomino_images")
+        image_directory = os.path.join("C:/Users/white/Desktop/agents_experiments/clembench/multimodal_referencegame/resources", "pentomino_images")
 
         image_files = []
         if os.path.exists(image_directory):
