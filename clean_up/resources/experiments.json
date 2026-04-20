@@ -2,7 +2,7 @@
     "languages": [
         "en", "zh-CN", "de"
     ],
-    "n_instances": 3,
+    "n_instances": 2,
     "modalities": {
         "text": {
             "objects": {

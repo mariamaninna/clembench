@@ -6,7 +6,8 @@
     "players": 2,
     "image": "none",
     "languages": ["en", "zh-CN", "de", "it"],
-    "benchmark": ["3.0"]
+    "benchmark": ["3.0"],
+    "roles": ["player1","player2"]
   },
   {
     "game_name": "mm_clean_up",
@@ -16,7 +17,8 @@
     "instances": "mm_instances",
     "image": "multi",
     "languages": ["en", "zh-CN", "de"],
-    "benchmark": []
+    "benchmark": [],
+    "roles": ["player1","player2"]
   },
   {
     "game_name": "hybrid_clean_up",
@@ -26,7 +28,8 @@
     "instances": "hybrid_instances",
     "image": "multi",
     "languages": ["en", "zh-CN", "de"],
-    "benchmark": []
+    "benchmark": [],
+    "roles": ["player1","player2"]
   },
   {
     "game_name": "st_clean_up",
@@ -36,6 +39,7 @@
     "instances": "st_instances",
     "image": "multi",
     "languages": ["en", "zh-CN", "de"],
-    "benchmark": []
+    "benchmark": [],
+    "roles": ["player1","player2"]
   }
 ]

@@ -25,7 +25,7 @@ from resources.game_state.game_state import GridState, SemanticGridState
 logger = logging.getLogger(__name__)
 
 # Seed for reproducibility
-SEED = 73128361
+SEED = 40
 ICON_METADATA_PATH = "resources/icons/metadata.json"
 
 class CleanUpInstanceGenerator(GameInstanceGenerator):
