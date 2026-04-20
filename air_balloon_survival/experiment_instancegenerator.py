@@ -18,8 +18,8 @@ import time
 logger = logging.getLogger(__name__)
 
 GAME_NAME = 'air_balloon_survival'
-N_INSTANCES = 6 #nb of instances per experiment
-SEED = 1
+N_INSTANCES = 4 #nb of instances per experiment
+SEED = 40
 LANGUAGE = 'en'  # must be 'de' or 'en'
 EXPERIMENT_TYPES = ['negotiation', 'reasoning off', 'complexity']
 STRATEGIC_REASONING = True # whether or not models are required to strategize at the beginning of every message
@@ -32,7 +32,7 @@ PATIENCE = 2 # number of Game or Parsing Errors allowed per player in an episode
 
 # ----- The following global variables will be altered during the loops as they determine the experiment settings -----
 ONLY_INDIVIDUAL = False  # variable indicates if only individual player scores are needed. (Allows for games with more items)
-N_ITEMS = 15 # Number of items to select for each game instance
+N_ITEMS = 10 # Number of items to select for each game instance
 CATEGORY = "generated_words"  # must be 'generated_words' or 'common_nouns'
 
 # next determines the type of correlation between weights and player 1 utility scale
@@ -55,7 +55,7 @@ class AirBalloonInstanceGenerator(GameInstanceGenerator):
         for experiment_type in EXPERIMENT_TYPES:
 
             # reset the following previously global variables after each experiment type iteration
-            STRATEGIC_REASONING = True # whether or not models are required to strategize at the beginning of every message
+            STRATEGIC_REASONING = False # whether or not models are required to strategize at the beginning of every message
             ONLY_INDIVIDUAL = False  # variable indicates if only individual player scores are needed. (Allows for games with more items)
             N_ITEMS = 15  # Number of items to select for each game instance
             CATEGORY = "generated_words"  # must be 'generated_words' or 'common_nouns'
@@ -381,4 +381,4 @@ class AirBalloonInstanceGenerator(GameInstanceGenerator):
         return player_1_scale, player_2_scale
 
 if __name__ == '__main__':
-    AirBalloonInstanceGenerator().generate(filename=f"instances_{LANGUAGE}.json", seed=SEED)
+    AirBalloonInstanceGenerator().generate(filename=f"instances.json", seed=SEED)

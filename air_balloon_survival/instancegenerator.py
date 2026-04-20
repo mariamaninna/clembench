@@ -22,8 +22,8 @@ logger = logging.getLogger(__name__)
 
 
 GAME_NAME = 'air_balloon_survival'
-N_INSTANCES = 5
-SEED = 1
+N_INSTANCES = 4
+SEED = 40
 
 ONLY_INDIVIDUAL = False # variable indicates if only individual player scores are needed. (Allows for games with more items)
 LANGUAGE = 'en' # must be 'de' or 'en'
@@ -318,4 +318,4 @@ class AirBalloonInstanceGenerator(GameInstanceGenerator):
         return player_1_scale, player_2_scale
 
 if __name__ == '__main__':
-    AirBalloonInstanceGenerator().generate(filename=f"instances_{LANGUAGE}_test.json", seed=SEED)
+    AirBalloonInstanceGenerator().generate(filename=f"instances.json", seed=SEED)
