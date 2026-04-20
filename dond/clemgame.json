@@ -9,5 +9,6 @@
         "it",
         "de"
     ],
-    "benchmark": ["3.0"]
+    "benchmark": ["3.0"],
+    "roles": ["player1", "player2"]
 }

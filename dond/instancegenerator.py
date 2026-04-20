@@ -17,7 +17,7 @@ modes = ['coop', 'semi'] #, 'comp']
 languages = ['en', 'de', 'it']
 
 # Number of instances per mode and language combination.
-n_instances = 20
+n_instances = 10
 n_messages = 5          # Number of messages are allowed per player.
 n_item_types = (3, 5)   # The number of different item types.
 n_items = (5, 8)        # The number of different items.
@@ -25,7 +25,7 @@ n_points = 10           # Number of value points per player.
 
 logger = logging.getLogger(__name__)
 
-SEED = 3141592
+SEED = 40
 
 
 class DealOrNoDealGameInstanceGenerator(GameInstanceGenerator):
